@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="idade.js"></script>
+    <title>Calcule sua Idade</title>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <div class="base">
+                    <div class="enter"><h4>Calcule sua Idade</h4></div>
+                <div class="bloco">
+                 <p class="titulo">Dia</p>
+                    <input type="text"
+                        name="dia"
+                        id="dia"
+                        placeholder="dd"
+                        required="required"
+                        minlength="1"
+                        maxlength="2"
+                    />
+                </div>
+                <div class="bloco">
+                 <p class="titulo">Mes</p>
+                    <input type="text"
+                        name="mes"
+                        id="mes"
+                        placeholder="mm"
+                        required="required"
+                        minlength="1"
+                        maxlength="2"
+                    />
+                 </div>
+                <div class="bloco">
+                 <p class="titulo">Ano</p>
+                    <input type="text"
+                        name="ano"
+                        id="ano"
+                        placeholder="aaaa"
+                        required="required"
+                        minlength="4"
+                        maxlength="4"
+                     />
+                </div>
+            </div>
+            <div class="base">
+                <div class="enter">
+                    <input type="button"
+                    name="calcular"
+                    value="Calcular"
+                    onclick="idade()"
+                    />
+                </div>
+            </div>
+            <div id="idade"></div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #6b7274cc;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 520px;
+    height: auto;
+    margin: 100px auto;
+    background-color: #eee;
+    border-radius: 25px;
+}
+
+.base {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    display: block;
+    float: none;
+}
+
+.bloco {
+    width: 135px;
+    padding: 5px;
+    margin-left: 20px;
+    display: inline-block;
+    box-shadow: #8d23ba;
+}
+
+.base h4 {
+    font-size: 25px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: normal;
+    margin-top: 0px;
+    box-shadow: 0px 2px #bababa;
+    background: white;
+    font-size: 35px;
+    color: rgb(117, 68, 156);
+}
+
+.titulo {
+    font-size: 20px;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: normal;
+    line-height: 0.5;
+    letter-spacing: 0.5px;
+    word-spacing: 2.5px;
+    color: rgb(117, 68, 156);
+}
+
+input [type='text']:focus {
+    width: 140px;
+    margin: auto;
+    outline: none;
+    min-height: 50px;
+    border: 2px solid #1073d0;
+    padding: 12px;
+    background-color: #f7f7f7;
+    border-radius: 2px;
+    color: #1073d0;
+    font-size: 15px;
+}
+
+input[type="text"]:focus {
+    background-color: #ffffff;
+    border: 2px solid rgb(117, 68, 156);
+    outline: #8d23ba;
+}
+
+input[type="button"] {
+    width: 150px;
+    margin-left: 35%;
+    margin-top: 40px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(130, 95, 155);
+    color: #ffffff;
+    padding: 14px 16px;
+    text-align: center;
+    font-size: 16px;
+}
+
+input[type='button']:hover{
+    background-color: #8d23ba;
+}
+
+#idade {
+    display: block;
+    margin: 10px;
+    margin-top: 35px;
+    padding: 10px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    font-family: verdana;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 1.5;
+    word-spacing: 2.5px;
+    color: rgb(92, 56, 122);
+}
